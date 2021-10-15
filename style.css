@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color : white;
+}
+.intro {
+    text-align: center;
+    height: 50px;
+}
+.score {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.player-score {
+    display: block;
+    text-align: center;
+}
+.computer-score {
+    display: block;
+    text-align: center;
+}
+.match {
+    text-align: center;
+    /* justify-content: space-between; */
+}
+.h2 {
+    margin-bottom: 25px;
+}
+.winner {
+    height: 20px;
+}
+.hands {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hands img {
+    height: 180px;
+    width: 200px;
+}
+.player-hand {
+    transform: rotateY(180deg);
+}
+.players-choice {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+button {
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    margin: 20px;
+}
+.try {
+    margin-top: 30px;
+}
